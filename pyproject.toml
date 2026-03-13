@@ -1,0 +1,34 @@
+[project]
+name = "gimmesquares"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "neginja", email = "neginja@healthy.soup" }]
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.3.1",
+    "numpy>=2.4.3",
+    "opencv-python>=4.13.0.92",
+    "rembg[cpu,gpu]>=2.0.72",
+    "scikit-learn>=1.8.0",
+]
+
+[project.scripts]
+gmsq = "gimmesquares.main:main"
+
+[build-system]
+requires = ["uv_build>=0.10.0,<0.11.0"]
+build-backend = "uv_build"
+
+[tool.basedpyright]
+enableTypeIgnoreComments = false
+reportAny = "hint"
+reportArgumentType = "hint"
+reportAttributeAccessIssue = "hint"
+reportCallIssue = "hint"
+reportIndexIssue = "hint"
+reportMissingTypeStubs = "hint"
+reportRedeclaration = "hint"
+reportUnknownArgumentType = "hint"
+reportUnknownMemberType = "hint"
+reportUnknownVariableType = "hint"
