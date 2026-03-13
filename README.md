@@ -1,6 +1,6 @@
 # GimmeSquares
 
-A command-line tool to transform photos into clean pixel art with optional contours. It uses **K-Means quantization** for palettes, **rembg** for (optional) AI background removal, and some Canny/Scharr contour detection to (optionally) draw outlines.
+A command-line tool to transform photos into clean pixel art with optional contours. It uses **K-Means quantization** for palettes, **rembg** for (optional) AI background removal, and canny contour detection to (optionally) draw outlines.
 
 ## Installation
 
