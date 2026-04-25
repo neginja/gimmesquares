@@ -21,13 +21,13 @@ gmsq input.png output.png --pixel-size 8 --colors 16
 With Contours
 
 ```console
-gsqm input.png output.png --pixel-size 8 --colors 16 --outline --outline-color "#000000"
+gmsq input.png output.png --pixel-size 8 --colors 16 --outline --outline-color "#000000"
 ```
 
 With background removel
 
 ```console
-gsqm input.png output.png --pixel-size 8 --colors 16 --no-bg
+gmsq input.png output.png --pixel-size 8 --colors 16 --no-bg
 ```
 
 Use `gmsq --help` to display help.
